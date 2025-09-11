@@ -132,14 +132,14 @@
     --light-800: #1F2937;
     --primary-50: #E4F1FF;
     --primary-100: #BFDCFF;
-    --primary-200: #95C7FF;
-    --primary-300: #6BB1FF;
-    --primary-400: #519FFF;
-    --primary-500: #458EFF;
-    --primary-600: #487FFF;
-    --primary-700: #486CEA;
-    --primary-800: #4759D6;
-    --primary-900: #4536B6;
+  --primary-200: #A8E6A1;  /* Vert clair pastel */
+  --primary-300: #7EDC76;  /* Vert frais */
+  --primary-400: #5EC95D;  /* Vert moyen */
+  --primary-500: #4EB84C;  /* Vert principal */
+  --primary-600: #46A043;  /* Vert soutenu */
+  --primary-700: #3E8B3B;  /* Vert foncé */
+  --primary-800: #357634;  /* Vert plus sombre */
+  --primary-900: #2A5C29;  /* Vert profond */
     --danger-50: #FEF2F2;
     --danger-100: #FEE2E2;
     --danger-200: #FECACA;
@@ -3942,6 +3942,9 @@ input:focus-visible {
     list-style: inside !important;
 }
 
+.btn-primary{
+  background: var(--primary-600) !important;
+}
 .aspect-ratio-1 {
     aspect-ratio: 1;
 }
